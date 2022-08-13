@@ -2,7 +2,7 @@
 #include "Module.h"
 
 class Fly : public IModule {
-	private: float speed = 0.325f;
+	private: float speed = 10f;
 	float upanddown = 0.6f;
 		float glideMod = -0.00f;
 	float glideModEffective = 0;
